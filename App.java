@@ -9,7 +9,8 @@ public class App {
         Scanner sc = new Scanner(System.in);
         String url = "jdbc:mysql://localhost:3306/Banking_system";
         String username = "root";
-        String password = "tiger";
+        //your password
+        String password = "password";
 
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
